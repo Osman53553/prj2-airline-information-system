@@ -8,4 +8,4 @@ package datarecords;
  *
  * @author demir
  */
-public record AirplaneData (String name, String location, String iata){}
+public record AirplaneData (String model, int pId){}
